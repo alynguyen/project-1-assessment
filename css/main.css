@@ -1,0 +1,50 @@
+body {
+  font-size: 25px;
+  font-family: 'Comic Sans';
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 800px
+}
+
+div {
+  max-width: 100%;
+}
+
+div.inputs {
+  align-content: center;
+  margin-top: 10px;
+}
+
+input {
+  font-weight: bold;
+  font-family: 'Comic Sans';
+  width: 40px;
+  border-radius: 5%;
+  border: 1px solid lightgrey;
+  padding: 3px;
+  text-align: center;
+  height: 15px;
+  outline: none;
+}
+
+button {
+  height: 22px;
+  margin: 5px;
+  padding: 3px 8px;
+  color: white;
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
+  border-radius: 5px;
+  outline: none;
+}
+
+button:hover {
+  background-color: white;
+  color: lightgrey;
+}
